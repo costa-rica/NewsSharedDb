@@ -1,4 +1,4 @@
-# NewsSharedDb
+# 📰 NewsSharedDb
 
 A shared Sequelize SQLite module for the News microservices system.
 

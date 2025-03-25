@@ -26,3 +26,7 @@ const {
   RssLinkRequest,
 } = require("NewsSharedDb");
 ```
+
+## Environmental Variables
+
+- No .env file is needed becuase this package will use the .env vars from the project it is imported into.

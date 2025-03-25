@@ -19,8 +19,9 @@ const RssLinkRequest = sequelize.define("RssLinkRequest", {
     type: DataTypes.INTEGER,
     defaultValue: 0,
   },
-  statusOfResponse: {
-    type: DataTypes.STRING,
+  // statusOfResponse: {
+  gotResponse: {
+    type: DataTypes.BOOLEAN,
   },
   response: {
     type: DataTypes.JSON,

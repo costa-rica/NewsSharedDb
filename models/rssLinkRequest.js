@@ -23,9 +23,9 @@ const RssLinkRequest = sequelize.define("RssLinkRequest", {
   gotResponse: {
     type: DataTypes.BOOLEAN,
   },
-  response: {
-    type: DataTypes.JSON,
-  },
+  // response: {
+  //   type: DataTypes.JSON,
+  // },
 });
 
 module.exports = RssLinkRequest;
